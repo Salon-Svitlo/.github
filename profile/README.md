@@ -45,13 +45,14 @@ We're rebuilding our platform from the ground up in **TypeScript** — modern, f
 | Layer | Technology |
 |:---:|:---|
 | `lang` | TypeScript |
-| `framework` | Next.js (App Router) |
-| `styling` | Tailwind CSS |
-| `database` | PostgreSQL |
+| `frontend` | React 19 + TanStack |
+| `backend` | NestJS |
+| `design system` | [salon-svitlo-ui](https://github.com/Salon-Svitlo/salon-svitlo-ui) |
+| `styling` | Tailwind CSS v4 |
+| `database` | PostgreSQL + Drizzle |
 | `search` | Meilisearch |
 | `payments` | LiqPay / Monobank |
 | `delivery` | Nova Poshta API |
-| `hosting` | Vercel |
 
 </td>
 </tr>
